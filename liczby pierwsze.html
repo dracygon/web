@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"href="dla liczb p.css">
+        <link rel="icon" href="el gato.png" type="image/x-icon">
+        <title> Liczby pierwsze </title>
+    </head>
+
+    <body> 
+
+        <div class="navbar">
+            <a href="glowna.html">Główna</a>
+            <a href="euklides .html">Algorytm Euklidesa</a>
+            <a href="liczby pierwsze.html">Liczba pierwsza</a>
+            <a href="fibonacci.html">Ciąg Fibonnaciego</a>
+          </div>
+          <!--<div class="anchor">
+            <img src="">
+          </div> -->
+          
+<div class="squares">
+          <div class="pic"> 
+            <img src="l pierwsze.jpg"> 
+            <p> Liczba pierwsza to liczba naturalna, która jest podzielna tylko przez 1 i przez samą siebie. </p>
+          </div>
+        <div class="nexttopic"> 
+            <p> Liczb pierwszych, które są mniejsze od 1000, jest 168. Wśród liczb stucyfrowych jedna na trzysta liczb złożonych jest liczbą pierwszą. A co dalej? Niestety, wciąż nie opracowano uniwersalnego wzoru, który pozwalałby odnajdywać kolejne liczby pierwsze.
+                Ciekawostka Od 1996 roku prowadzony jest projekt Great Internet Mersenne Prime Search, którego celem jest odkrywanie kolejnych liczb pierwszych. Od momentu rozpoczęcia projektu do dzisiaj – czyli w ciągu 26 lat – odkryto 16 nowych liczb pierwszych. Najnowsza z nich, będąca największą ze znanych ludzkości liczb pierwszych, to 282589933 – 1. Jeżeli spróbujesz zapisać tę liczbę w układzie dziesiętnym, odkryjesz, że składa się ona z 28 862 048 cyfr, które z łatwością zapełnią około 10 000 stron książki.</p>
+          </div>
+</div>
+
+
+<div class="divider"></div>
+
+<div class="zeroexp">
+        <div class="aftersq1"> 
+            <b> Czy 1 jest liczbą pierwszą?</b>
+            <p>Nie. 1 nie jest liczbą pierwszą – chociaż często zdarza się, że uczniowie próbują podważać tę wersję. Aby dowieść, że 1 nie może być zakwalifikowana do zbioru liczb pierwszych, musimy cofnąć się do ich definicji.
+                Przypomnijmy: liczba pierwsza musi być podzielna przez dwie liczby – 1 i samą siebie. Nie mniej niż dwie i nie więcej niż dwie.</p>
+        </div>
+
+        <div class="aftersq2"> 
+            
+            <b>Jak jest w przypadku 1?</b>
+             <p> Możemy podzielić ją tylko przez 1, a więc posiada ona tylko jeden dzielnik (nawet jeżeli jednocześnie spełnia on wymagania dla dwóch dzielników liczby pierwszej). Tym samym 1 nie spełnia definicji liczby pierwszej.</p>
+        </div>
+</div>
+
+<div class="dot"></div>
+
+<div class="sito">
+<h1> Sito Eratostenesa</h1>
+
+<p>Sito Eratostenesa to algorytm za pomocą, którego jesteśmy w stanie w szybki sposób wyznaczyć liczby pierwsze z przedziału od 2 do n, gdzie n jest górną granicą przedziału. Stworzenie algorytmu przypisuje się Grekowi, Eratostenosowi z Cyreny.</p>
+
+</div>
+
+<div class="divider"></div>
+
+<div class="dzialanie">
+    <h1>Działanie</h1>
+    <p>Działanie algorytmu jest bardzo proste. Pobieramy najpierw liczbę n od użytkownika. Następnie tworzymy tablicę n-elementową, indeksowaną od 2 (bo to najmniejsza spośród liczb pierwszych), a następnie wartość każdej komórki w tablicy ustawiamy na prawdę. Bierzemy najmniejszy indeks (czyli dwa) i ustawiamy wartości wszystkich komórek, których indeksy są wielokrotnościami dwójki na fałsz. W dalszej kolejności postępujemy tak z następnym niewykreślonym indeksem, czyli trójką i analogicznie jak w przypadku dwójki ustawiamy wartości komórek o indeksach równych k*3 na fałsz. W ten sposób postępujemy, dopóki obierany indeks będzie mniejszy lub równy pierwiastkowi z n. Dlaczego tak? Dlaczego do pierwiastka z n? Wynika to z tego, że liczba ma tyle samo dzielników mniejszych od tego pierwiastka, co większych od niego.</p>
+</div>
+
+<div class="finalpic">
+    <img src="liczby p.jpg">
+</div>
+         
+          
+    </body>
+</html>
